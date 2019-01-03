@@ -16,7 +16,7 @@ bin/fixowns
 
 bin/clinotty chmod u+x bin/magento
 
-BASE_URL=${1:-magento2.test}
+BASE_URL=${PWD##*/}
 
 echo "Forcing reinstall of composer deps to ensure perms & reqs..."
 bin/clinotty composer install
