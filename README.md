@@ -1,3 +1,5 @@
+# This has been deprecated in light of Magento 2's Cloud development environment and is no long maintained
+
 # Docker Magento 2 Development Environment
 
 
