@@ -18,11 +18,17 @@ I will assume you are on a MacBook but this will work on Linux, Mac and Windows.
 1. We want to make some changes to our docker configuration once it is done. We do that with the "Whale" icon at the top of your screen.
 
 2. In Preferences you want to make a few changes
+	
 	3. Ensure under "Disk" the disk ends in ".raw"
+	
 	4. Under advanced set "CPU" to 4
+	
 	5. Under advanced set "Memory" to 8 GB
+	
 		6. This can be lower if you have memory issues
+
 	7. Under Advanced set "Swap" to 2 GB
+	
 	8. When finished it will restart docker
 
 ### Install dependencies
